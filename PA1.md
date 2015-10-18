@@ -1,8 +1,12 @@
 # Reproducible Research: Peer Assessment 1
 EvenGu  
-October 17, 2015  
 
 
+```r
+## set global options to 1) supress package loading message and 2) format the numbers
+library(knitr)
+opts_chunk$set(message=FALSE, options(digits=2))
+```
 
 ## Loading and preprocessing the data
 

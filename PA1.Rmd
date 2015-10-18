@@ -6,8 +6,8 @@ output:
     keep_md: true
 ---
 
-```{r setoptions, echo=FALSE}
-## set global options
+```{r setoptions}
+## set global options to 1) supress package loading message and 2) format the numbers
 library(knitr)
 opts_chunk$set(message=FALSE, options(digits=2))
 ```
